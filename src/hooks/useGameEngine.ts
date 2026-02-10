@@ -1,7 +1,7 @@
 // ── Game Engine Hook ──
 import { useState, useCallback, useRef, useEffect } from 'react';
 import type { GameConfig, GameStats, WpmSnapshot, WordResult } from '../types';
-import { generateText, type GeneratedText } from '../utils/textgen';
+import { generateText } from '../utils/textgen';
 import { soundEngine } from '../utils/sound';
 
 export interface GameState {

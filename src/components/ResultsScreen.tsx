@@ -1,7 +1,7 @@
 // ── Results Screen ──
 import { useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer, Tooltip, Area, AreaChart } from 'recharts';
+import { Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer, Tooltip, Area, AreaChart } from 'recharts';
 import type { GameConfig, GameStats } from '../types';
 import { getRankTier, getRankColor } from '../utils/dailyChallenge';
 

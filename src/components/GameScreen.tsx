@@ -47,7 +47,6 @@ export function GameScreen({ config, onFinish, onBack }: GameScreenProps) {
 
       // Check if this is a daily challenge
       const today = todayString();
-      const seed = config.seed;
       // Simple heuristic: if seed matches today's date seed
       saveDailyChallenge({
         date: today,
