@@ -1,7 +1,7 @@
 // ── Adaptive Difficulty Hook ──
 // Adjusts difficulty based on player performance in real-time
 import { useCallback, useRef } from 'react';
-import type { DifficultyConfig } from '../types';
+import type { DifficultyConfig } from '../../types';
 
 export function useAdaptiveDifficulty(baseDifficulty: DifficultyConfig) {
   const difficultyRef = useRef<DifficultyConfig>({ ...baseDifficulty });
